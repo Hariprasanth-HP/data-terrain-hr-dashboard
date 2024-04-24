@@ -1,0 +1,46 @@
+{
+  "details": [
+    {
+      "level1": "7/10",
+      "level2": "6/10",
+      "level3": "Waiting",
+      "meetvia": "G-Meet",
+      "interviewer1": "Stella",
+      "interviewer2": "Smith",
+      "interviewer3": "Stevan",
+      "attendees": "Johnson",
+      "date": "19 th Feb 2024",
+      "time": "10:30 AM",
+      "name": "John Smith",
+      "role": "Python Developer"
+    },
+    {
+      "level1": "7/10",
+      "level2": "6/10",
+      "level3": "Waiting",
+      "meetvia": "G-Meet",
+      "interviewer1": "Stella",
+      "interviewer2": "Smith",
+      "interviewer3": "Stevan",
+      "attendees": "Johnson",
+      "date": "19 th Feb 2024",
+      "time": "10:30 AM",
+      "name": "John Doe",
+      "role": "Python Developer"
+    },
+    {
+      "level1": "7/10",
+      "level2": "6/10",
+      "level3": "Waiting",
+      "meetvia": "G-Meet",
+      "interviewer1": "Stella",
+      "interviewer2": "Smith",
+      "interviewer3": "Stevan",
+      "attendees": "Johnson",
+      "date": "19 th Feb 2024",
+      "time": "10:30 AM",
+      "name": "John Been",
+      "role": "Python Developer"
+    }
+  ]
+}
