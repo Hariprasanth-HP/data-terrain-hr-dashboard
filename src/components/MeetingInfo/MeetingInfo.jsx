@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./MeetingInfo.css";
 import MeetingCard from "./MeetingCard/MeetingCard";
 const detailsArray = [
