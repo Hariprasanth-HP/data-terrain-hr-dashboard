@@ -1,0 +1,59 @@
+.header_container {
+  height: 125px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+/* logo-1 1 */
+.header_logo {
+  /* position: absolute; */
+  width: 231.8px;
+  height: 61.64px;
+  left: 20.12px;
+  top: 31.68px;
+}
+.search-box {
+  position: relative;
+  width: 30%;
+  margin-left: 88px;
+  padding: 5px;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.search-box i {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+input[type="search"] {
+  display: inline-block;
+  background-color: lightgrey;
+  width: 100%;
+  font-size: 1.5rem;
+
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.2rem;
+
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+[type="search"]::-webkit-search-cancel-button {
+  font-size: 2rem;
+}
+.header-icons {
+  margin-left: auto;
+  display: flex;
+  gap: 18%;
+  width: 24%;
+}

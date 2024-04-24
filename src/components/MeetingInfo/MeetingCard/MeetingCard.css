@@ -1,0 +1,72 @@
+.meetingCard-container {
+  width: 809px;
+  height: 324px;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.meetingCard-profile {
+  width: 269px;
+  height: 250px;
+}
+hr {
+  margin: 0;
+}
+.meetingCard-list {
+  height: 58.79px;
+  width: 269.81px;
+}
+.meetingCard-details {
+  display: flex;
+  flex-direction: column;
+}
+.meetingCard-button {
+  width: 221px;
+  height: 45px;
+}
+.meetingCard-details-content {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.profile-img {
+  width: 103.76px;
+  height: 103.76px;
+  padding: 46.69px 0 0 84.63px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.profile-img-name {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.profile-img-role {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+.meeting-card-calender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #1976d2;
+}

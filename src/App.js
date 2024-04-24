@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import WeekPicker from "./components/Calender";
+import Header from "./components/Header/Header";
+import MeetingInfo from "./components/MeetingInfo/MeetingInfo";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Header />
+      <div
+        style={{
+          height: "79.7%",
+          display: "flex",
+          alignItems: "center",
+          gap: "2%",
+        }}
+      >
+        <Sidebar />
+        <div className="main-container">
+          <MeetingInfo />
+        </div>
+        <div
+          style={{
+            height: "100%",
+            display: "flex",
+            marginTop: "6%",
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          <WeekPicker />
+        </div>
+      </div>
     </div>
   );
 }
