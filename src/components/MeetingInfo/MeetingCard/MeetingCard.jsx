@@ -30,7 +30,7 @@ const MeetingCard = ({ details }) => {
               width: "103px",
             }}
             src={"https://cdn-icons-png.flaticon.com/512/3135/3135715.png"}
-            alet="profile"
+            alt="profile"
           />
           <p className="profile-img-name">{name}</p>
           <p className="profile-img-role">{role}</p>
